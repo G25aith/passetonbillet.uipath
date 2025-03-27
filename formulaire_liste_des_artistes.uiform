@@ -1,0 +1,21 @@
+﻿{
+  "Metadata": {
+    "Id": "9d0f94ac-f9a9-47a5-a616-bd8ca92aeff5",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "formulaire_liste_des_artistes"
+  },
+  "Data": {
+    "components": [
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}

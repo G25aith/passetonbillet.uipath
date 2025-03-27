@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Le Chat - Mistral AI",
+  "Type": "App",
+  "Id": "Ben2veomukCLcf0yejCDfQ",
+  "Reference": "Awkkx5PX5Uq3gimdujAmxA/Ben2veomukCLcf0yejCDfQ",
+  "Created": "2025-03-25T13:13:03.4905965Z",
+  "Updated": "2025-03-25T13:13:03.4905965Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

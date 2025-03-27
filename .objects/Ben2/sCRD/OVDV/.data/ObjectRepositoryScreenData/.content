@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="YeYCrqtYI0ClkrlZZLHiHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1048" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJqSURBVGhD7ZfPS1RRHMXPmzdT4zg/wCimcpkQtAhaBi36AUWBFhgEthCXUZugFq5qnKULA1cG1cKVULOwRYsWLfwHRiqpiHGeaRgFLaR0XuO3+33cRc79Zs6bh4ZzD3xQefece44PlIGVlZXV/y0iOAaAox9HJs6U7tKPw4ne4By9RdFgDnfU1336WMui10jrTPMu1UEfa07Bb4AD5tS3Jp4K7tFHW5YakA8ypbu4Q5g3YQc0ITtA0u4YMIsRKqNuMIsFmsEpeopugxfo0hGGaApdouclTgSZ8l0j4Qbw3+Vptf451g2mUaNnqFAJ7wQe6AhDyjMqnGc+BpnyXSHfAA8oKXNJvYzmmNIRhtSASeH8v7ADpNDNsAMaaOcBj1Cgx47fFBPODBXcfpEJ55Xo2QzuEHrAfbdIhQTtKNxBddG1ti47ICrsACl0O2nrAfXBjoI/2OkbDKWWf93dc5vuxQYa8W8lx0QPczM5LnloOH6DMyUPdwg9wO/LFWuXc2SS9VYvZcTPA6u96X7Zk6O13uyAPrZBdDGV50zJwx3sABM7YIPae4B6GPsMHKgA+T/5AhxcOZ0e+3khs25wPvPp27HkyUYP8+NM5/W1vuySxMrZ1JDkWe5JHOdM6S7uUAUONXq4s+rugn+oxlFWeI14SXz3Mk7dIO3UqgksiZ69eEJXOrolFpJ4KHnmE1jkTPEu1UHyKMofgCPwgMPzcXxVhSgS4n//PFCJY1L0hIA7LwJH7QADO2Br7J4B74GsunTYc1GMhBiu6b6Gqi6uip4QcGfVfX8QzP8ooiQIFSSdbQUda2VlZbVjAn4Dxv5icSG7dOAAAAAASUVORK5CYII=" Selector="&lt;html app='chrome.exe' title='Le Chat - Mistral AI' /&gt;" Title="Le Chat - Mistral AI" Url="https://chat.mistral.ai/chat/4b0daa6e-7dc7-404e-954a-b24f3bc17e6a" Version="V1">
+      <imageRef attrName="InformativeScreenshot" originalValue="ded9cd65e1f8e9a6e21b734b553ad766.jpg" xmlns="">0_giIXFN5JUieuARD98GZTw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

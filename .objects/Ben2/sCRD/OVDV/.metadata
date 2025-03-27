@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Le Chat - Mistral AI",
+  "Type": "Screen",
+  "Id": "OVDVA8g1u0Wg8usDZs4GIg",
+  "Reference": "Awkkx5PX5Uq3gimdujAmxA/OVDVA8g1u0Wg8usDZs4GIg",
+  "ParentRef": "Awkkx5PX5Uq3gimdujAmxA/sCRDu01vt0C3B25it3JHKA",
+  "Created": "2025-03-25T13:13:03.5789295Z",
+  "Updated": "2025-03-25T13:13:03.5789295Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

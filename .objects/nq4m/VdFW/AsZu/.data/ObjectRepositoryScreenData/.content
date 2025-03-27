@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="mVJ4YUNi0USTqpOT0ItPqA" Reference="Awkkx5PX5Uq3gimdujAmxA/AsZuEkfMmUa6bNhEv0Yuog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1048" BrowserType="Chrome" ContentHash="_KSbs1LrRkCgpORVrQ1FIg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAD6SURBVDhPpZNNagJBEIVH4kEkwTskm7iRXEQvEHMNA9mooIQI6lIi5gBZqHuHkBl/cJtlyNJF8MsrG0EGNfTY8OD16+rXXd1VAfUgFEiJ0Aw2CREaF0J2by5u2n6Mw8YMEmIGJg8we4HuJXRyED87zdYS8YcN5h224zsWIsdN8zL4GsH0EVZ9+F37GnRhXIFhEd7uIGrBoufWEvEnDO7howafTWdmmpfBRJv6N8K1O937BmbwXhZKED6dkULchpG4dwqW9+stDAp6RNWB3w1231hN+40KtvGzFBaOexlsS1m59/Iq5yu9g8r6RCkfb6aauOGfZjqjnYPwD+1TziQeGwW9AAAAAElFTkSuQmCC" Reference="Awkkx5PX5Uq3gimdujAmxA/AsZuEkfMmUa6bNhEv0Yuog" Selector="&lt;html app='chrome.exe' title='Concerts Imagine Dragons 2025 ❘ Achat de places &amp;amp; Revente de billets - PasseTonBillet' /&gt;" Title="Concerts Imagine Dragons 2025 ❘ Achat de places &amp; Revente de billets - PasseTonBillet" Url="https://www.passetonbillet.fr" Version="V1">
+      <imageRef attrName="InformativeScreenshot" originalValue="9f132482408f8157d85bae6488fc9b4f.jpg" xmlns="">0F56qWd2itkSfQZQ-qmw_Og</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

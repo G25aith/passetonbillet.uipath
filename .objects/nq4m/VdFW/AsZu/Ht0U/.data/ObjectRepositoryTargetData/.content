@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="729wBHLhQk-Cn76vrkBHUw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="passetonbillet.fr/artists/dua-lipa" CVScreenId="184de243-243e-431c-882d-1b6981380749" CvElementArea="78, 570, 1764, 162" CvTextArea="675, 677, 567, 22" CvTextArgument="Nous n'avons trouvé aucun événement passé pour Dua Lipa" CvType="Button" DesignTimeRectangle="676, 673, 567, 28" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='text-xs md:text-[15px] font-semibold text-center' isleaf='1' tag='SPAN' /&gt;" Guid="df08d8f2-b37b-4ed0-87d9-7e2ea59a8a58" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Concerts Dua Lipa 2025 ❘ Achat de places &amp;amp; Revente de billets - PasseTonBillet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bdd330077fab68286b3c97325797edfd.png" xmlns="">0veYLDxnhlEyX2I7qengOrg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
