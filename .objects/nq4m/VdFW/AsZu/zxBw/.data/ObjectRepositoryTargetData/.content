@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KWI-VatSPEOuaeZVJ_idCA" Reference="Awkkx5PX5Uq3gimdujAmxA/zxBw6P7_tU-ywBvVFNe9Zw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="passetonbillet.fr/artists/dua-lipa" CVScreenId="aef2c460-2833-4896-bed9-bc2131a1e39d" DesignTimeRectangle="1566, 722, 16, 16" DesignTimeScaleFactor="1" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl id='popularity' tag='INPUT' type='radio' aaname='Avec billets' /&gt;" Guid="a7c00aad-5437-4f5a-88fd-6afd014122fc" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Concert Dua Lipa 2025 ❘ Achat de places &amp;amp; Revente de billets - PasseTonBillet' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="aef2c460-2833-4896-bed9-bc2131a1e39d" CvElementArea="1548, 711, 123, 37" CvTextArea="1588, 724, 65, 10" CvTextArgument="AVEC BILLETS" CvType="Button" DesignTimeRectangle="1590, 722, 63, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Avec billets' tag='LABEL' type='' class='text-2xs hover:cursor-pointer uppercase text-gray-500' check:innerText='AVEC BILLETS' /&gt;" Guid="5ee8c797-7d75-436f-821a-0be8f762eb12" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4ef85f51d455626781528c01a87da706.png" xmlns="">08tVsc0ZiL0OGQOYHWr-1ig</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

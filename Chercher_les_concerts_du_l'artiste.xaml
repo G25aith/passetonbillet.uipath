@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Chercher_les_concerts_du_l_artiste" this:Chercher_les_concerts_du_l_artiste.Artist="dua-lipa" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Chercher_les_concerts_du_l_artiste" this:Chercher_les_concerts_du_l_artiste.Artist="dua-lipa" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Artist" Type="InArgument(x:String)" />
   </x:Members>
@@ -40,6 +40,98 @@
       <x:String>GlobalVariablesNamespace</x:String>
       <x:String>GlobalConstantsNamespace</x:String>
       <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>Microsoft.Win32.SafeHandles</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>System.Configuration.Assemblies</x:String>
+      <x:String>System.CodeDom.Compiler</x:String>
+      <x:String>System.Buffers</x:String>
+      <x:String>System.Buffers.Text</x:String>
+      <x:String>System.Buffers.Binary</x:String>
+      <x:String>System.Threading</x:String>
+      <x:String>System.Threading.Tasks</x:String>
+      <x:String>System.Threading.Tasks.Sources</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Text.Unicode</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Security.Principal</x:String>
+      <x:String>System.Security.Permissions</x:String>
+      <x:String>System.Security.Cryptography</x:String>
+      <x:String>System.Runtime</x:String>
+      <x:String>System.Runtime.Remoting</x:String>
+      <x:String>System.Runtime.ExceptionServices</x:String>
+      <x:String>System.Runtime.ConstrainedExecution</x:String>
+      <x:String>System.Runtime.Versioning</x:String>
+      <x:String>System.Runtime.Loader</x:String>
+      <x:String>System.Runtime.Intrinsics</x:String>
+      <x:String>System.Runtime.Intrinsics.Wasm</x:String>
+      <x:String>System.Runtime.Intrinsics.Arm</x:String>
+      <x:String>System.Runtime.Intrinsics.X86</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.InteropServices.ObjectiveC</x:String>
+      <x:String>System.Runtime.InteropServices.Marshalling</x:String>
+      <x:String>System.Runtime.InteropServices.ComTypes</x:String>
+      <x:String>System.Runtime.CompilerServices</x:String>
+      <x:String>System.Resources</x:String>
+      <x:String>System.Reflection.Metadata</x:String>
+      <x:String>System.Reflection.Emit</x:String>
+      <x:String>System.IO.Enumeration</x:String>
+      <x:String>System.Diagnostics.SymbolStore</x:String>
+      <x:String>System.Diagnostics.Contracts</x:String>
+      <x:String>System.Diagnostics.CodeAnalysis</x:String>
+      <x:String>System.Diagnostics.Tracing</x:String>
+      <x:String>System.Collections.Concurrent</x:String>
+      <x:String>Internal</x:String>
+      <x:String>System.CodeDom</x:String>
+      <x:String>Microsoft.CSharp</x:String>
+      <x:String>System.Linq.Expressions.Interpreter</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>UiPath.Workflow.Runtime</x:String>
+      <x:String>UiPath.Workflow.Runtime.Statements</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.Tracking</x:String>
+      <x:String>System.Activities.Statements.Tracking</x:String>
+      <x:String>System.Activities.Runtime</x:String>
+      <x:String>System.Activities.Runtime.DurableInstancing</x:String>
+      <x:String>System.Activities.ParallelTracking</x:String>
+      <x:String>System.Activities.Hosting</x:String>
+      <x:String>System.Activities.Persistence</x:String>
+      <x:String>System.Activities.DurableInstancing</x:String>
+      <x:String>System.ComponentModel.Design.Serialization</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>System.Security.Authentication.ExtendedProtection</x:String>
+      <x:String>System.Timers</x:String>
+      <x:String>System.ComponentModel.Design</x:String>
+      <x:String>System.Xml.Schema</x:String>
+      <x:String>System.Xml.Xsl</x:String>
+      <x:String>System.Xml.Xsl.Runtime</x:String>
+      <x:String>System.Xml.XPath</x:String>
+      <x:String>System.Xml.Resolvers</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>Microsoft.CodeAnalysis</x:String>
+      <x:String>Microsoft.CodeAnalysis.FlowAnalysis</x:String>
+      <x:String>Microsoft.CodeAnalysis.Text</x:String>
+      <x:String>Microsoft.CodeAnalysis.Diagnostics</x:String>
+      <x:String>Microsoft.CodeAnalysis.Diagnostics.Telemetry</x:String>
+      <x:String>Microsoft.CodeAnalysis.Operations</x:String>
+      <x:String>Microsoft.CodeAnalysis.Emit</x:String>
+      <x:String>Microsoft.CodeAnalysis.VisualBasic</x:String>
+      <x:String>Microsoft.CodeAnalysis.VisualBasic.Syntax</x:String>
+      <x:String>Microsoft.VisualBasic.FileIO</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Helpers.TypeDetailsCustomization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+      <x:String>UiPath.Core.Activities.Orchestrator</x:String>
+      <x:String>UiPath.Web</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Web.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext</x:String>
+      <x:String>Microsoft</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -156,103 +248,292 @@
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>UiPath.Web</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualStudio.Validation</AssemblyReference>
+      <AssemblyReference>Microsoft.CodeAnalysis.Features</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="840.0000000000001,1746.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+  <Sequence sap:VirtualizedContainerService.HintSize="1047,3301" sap2010:WorkflowViewState.IdRef="Sequence_5">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="output_element" />
+      <Variable x:TypeArguments="scg:Dictionary(x:Int32, s:Tuple(x:String, x:String))" Name="list_values" />
+      <Variable x:TypeArguments="x:Int32" Name="index">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:String x:Key="SourceIdRef">ForEach`1_1</x:String>
+            <x:String x:Key="SourcePropertyName">CurrentIndex</x:String>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </Variable>
+      <Variable x:TypeArguments="scg:Dictionary(x:Int32, s:Tuple(x:String, x:String))" Name="list_values_formatted" />
+    </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Concerts Imagine Dragons 2025 ❘ Achat" sap:VirtualizedContainerService.HintSize="484.8,1723.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="81a083a4-26c5-486e-9189-53c92a381276" Version="V2" WindowResize="Maximize">
-      <uix:NApplicationCard.Body>
-        <ActivityAction x:TypeArguments="x:Object">
+    <ui:ForEach x:TypeArguments="scg:KeyValuePair(x:String, x:String)" CurrentIndex="[index]" DisplayName="For Each currentKeyValuePairOfTextAndText" sap:VirtualizedContainerService.HintSize="610,3278" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[New Dictionary(Of String, String) From {&#xD;&#xA;    {&quot;dua-lipa&quot;, &quot;https://discord.com/api/webhooks/1354899541349892230/rGCqtrpLZZoHcYJ0UruKTUINVvs24F-AdbpFtevwGB1NDfOemC73gw-w6EJUQ3nlFFMH&quot;},&#xD;&#xA;    {&quot;imagine-dragons&quot;, &quot;https://discord.com/api/webhooks/1354946338638397510/Iv9uwFjJB7KqVjYvojRyHYeHziIZMsY684i3Fnb5Jn1cle2L2dN7WqQweX2gRR0ezTi9&quot;}&#xD;&#xA;}]">
+      <ui:ForEach.Body>
+        <ActivityAction x:TypeArguments="scg:KeyValuePair(x:String, x:String)">
           <ActivityAction.Argument>
-            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            <DelegateInArgument x:TypeArguments="scg:KeyValuePair(x:String, x:String)" Name="currentKeyValuePairOfTextAndText" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Faire" sap:VirtualizedContainerService.HintSize="451.2,1483.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="608,3157" sap2010:WorkflowViewState.IdRef="Sequence_11">
             <Sequence.Variables>
-              <Variable x:TypeArguments="ui:UiElement" Name="b_aucunticket" />
+              <Variable x:TypeArguments="ui:UiElement" Name="output" />
             </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NSetRuntimeBrowser BrowserType="Chrome" DisplayName="Définir le navigateur du runtime (Set Runtime Browser)" sap:VirtualizedContainerService.HintSize="417.6,119.2" sap2010:WorkflowViewState.IdRef="NSetRuntimeBrowser_1" Version="V4" />
-            <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="417.6,114.4" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[&quot;https://www.passetonbillet.fr/artists/&quot; &amp; Artist]" Version="V4" />
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="417.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="81a083a4-26c5-486e-9189-53c92a381276" Version="V4">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="passetonbillet.fr/artists/imagine-dragons" ContentHash="-1iLv-NasUq84eiRc82pSg" DesignTimeRectangle="1716, 313, 20, 20" DesignTimeScaleFactor="1.25" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl id='popularity' tag='INPUT' type='radio' class='checked:appearance-none checked:rounded-full checked:bg-primary text-primary hover:cursor-pointer size-4' aaname='Avec billets' /&gt;" Guid="5fe894cd-4a45-4ede-ab63-f7054782de86" InformativeScreenshot="ae1b4d55ac5c5c8ea9e4859fe9748862.png" Reference="Awkkx5PX5Uq3gimdujAmxA/W3aXA6QRp0SqUmAvhcXjkg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Concerts Imagine Dragons 2025 ❘ Achat de places &amp;amp; Revente de billets - PasseTonBillet' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="1746, 314, 79, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Avec billets' tag='LABEL' type='' class='text-2xs hover:cursor-pointer uppercase text-gray-500' check:innerText='AVEC BILLETS' /&gt;" Guid="1c58a426-9364-4c28-b28b-73e6068ea513" SearchSteps="FuzzySelector" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-              <uix:NClick.VerifyOptions>
-                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                  <uix:VerifyExecutionOptions.Retry>
-                    <InArgument x:TypeArguments="x:Boolean" />
-                  </uix:VerifyExecutionOptions.Retry>
-                  <uix:VerifyExecutionOptions.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:VerifyExecutionOptions.Timeout>
-                </uix:VerifyExecutionOptions>
-              </uix:NClick.VerifyOptions>
-            </uix:NClick>
-            <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'SPAN'" FoundElement="[b_aucunticket]" sap:VirtualizedContainerService.HintSize="417.6,139.2" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
-              <ui:WaitUiElementAppear.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="27282bdd-aab7-4e4e-9828-12b65ec91cc7" InformativeScreenshot="09ed08dcda579004bc93073560cff9b5" Selector="&lt;html app='chrome.exe' title='Concerts Dua Lipa 2025 ❘ Achat de places &amp;amp; Revente de billets - PasseTonBillet' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='2' isleaf='1' tag='SPAN' /&gt;">
-                  <ui:Target.TimeoutMS>
-                    <InArgument x:TypeArguments="x:Int32" />
-                  </ui:Target.TimeoutMS>
-                  <ui:Target.WaitForReady>
-                    <InArgument x:TypeArguments="ui:WaitForReady" />
-                  </ui:Target.WaitForReady>
-                </ui:Target>
-              </ui:WaitUiElementAppear.Target>
-            </ui:WaitUiElementAppear>
-            <ui:IfElseIfV2 Condition="[b_aucunticket IsNot Nothing]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="417.6,823.2" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
-              <ui:IfElseIfV2.Else>
-                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,416.8" sap2010:WorkflowViewState.IdRef="Sequence_7">
-                  <Sequence.Variables>
-                    <Variable x:TypeArguments="x:String" Name="str_message" />
-                  </Sequence.Variables>
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uix:NGetText DisplayName="Get Text 'Nous n'avons trouvé auc…'" sap:VirtualizedContainerService.HintSize="382.4,189.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="81a083a4-26c5-486e-9189-53c92a381276" TextString="[str_message]" Version="V4">
-                    <uix:NGetText.Target>
-                      <uix:TargetAnchorable BrowserURL="passetonbillet.fr/artists/dua-lipa" CVScreenId="184de243-243e-431c-882d-1b6981380749" ContentHash="729wBHLhQk-Cn76vrkBHUw" CvElementArea="78, 570, 1764, 162" CvTextArea="675, 677, 567, 22" CvTextArgument="Nous n'avons trouvé aucun événement passé pour Dua Lipa" CvType="Button" DesignTimeRectangle="676, 673, 567, 28" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='text-xs md:text-[15px] font-semibold text-center' isleaf='1' tag='SPAN' /&gt;" Guid="df08d8f2-b37b-4ed0-87d9-7e2ea59a8a58" InformativeScreenshot="bdd330077fab68286b3c97325797edfd.png" Reference="Awkkx5PX5Uq3gimdujAmxA/Ht0UlOZ53Umcd70PDAuajA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Concerts Dua Lipa 2025 ❘ Achat de places &amp;amp; Revente de billets - PasseTonBillet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
-                    </uix:NGetText.Target>
-                  </uix:NGetText>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[str_message]" />
-                </Sequence>
-              </ui:IfElseIfV2.Else>
-              <ui:IfElseIfV2.ElseIfs>
-                <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True" />
-              </ui:IfElseIfV2.ElseIfs>
-              <ui:IfElseIfV2.Then>
-                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,227.2" sap2010:WorkflowViewState.IdRef="Sequence_6">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Des Billets sont disponibles&quot;]" />
-                </Sequence>
-              </ui:IfElseIfV2.Then>
-            </ui:IfElseIfV2>
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Chrome Concerts Imagine Dragons 2025 ❘ Achat" sap:VirtualizedContainerService.HintSize="574,3097" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="Always" OutUiElement="[output]" ScopeGuid="81a083a4-26c5-486e-9189-53c92a381276" Version="V2" WindowResize="Maximize">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Faire" sap:VirtualizedContainerService.HintSize="540,2857" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="ui:UiElement" Name="b_aucunticket" />
+                      <Variable x:TypeArguments="x:String" Name="str_message" />
+                      <Variable x:TypeArguments="x:Boolean" Name="check_exists" />
+                      <Variable x:TypeArguments="x:Boolean" Name="check_plus" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NSetRuntimeBrowser BrowserType="Chrome" DisplayName="Définir le navigateur du runtime (Set Runtime Browser)" sap:VirtualizedContainerService.HintSize="506,119" sap2010:WorkflowViewState.IdRef="NSetRuntimeBrowser_1" Version="V4" />
+                    <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="506,114" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[&quot;https://www.passetonbillet.fr/artists/&quot; &amp; currentKeyValuePairOfTextAndText.Key]" Version="V4" />
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Radio button 'AVEC BILLETS''" sap:VirtualizedContainerService.HintSize="506,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="81a083a4-26c5-486e-9189-53c92a381276" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="passetonbillet.fr/artists/dua-lipa" CVScreenId="aef2c460-2833-4896-bed9-bc2131a1e39d" ContentHash="KWI-VatSPEOuaeZVJ_idCA" DesignTimeRectangle="1566, 722, 16, 16" DesignTimeScaleFactor="1" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl id='popularity' tag='INPUT' type='radio' aaname='Avec billets' /&gt;" Guid="a7c00aad-5437-4f5a-88fd-6afd014122fc" ImageBase64="" InformativeScreenshot="4ef85f51d455626781528c01a87da706.png" Reference="Awkkx5PX5Uq3gimdujAmxA/zxBw6P7_tU-ywBvVFNe9Zw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Concert Dua Lipa 2025 ❘ Achat de places &amp;amp; Revente de billets - PasseTonBillet' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="aef2c460-2833-4896-bed9-bc2131a1e39d" CvElementArea="1548, 711, 123, 37" CvTextArea="1588, 724, 65, 10" CvTextArgument="AVEC BILLETS" CvType="Button" DesignTimeRectangle="1590, 722, 63, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Avec billets' tag='LABEL' type='' class='text-2xs hover:cursor-pointer uppercase text-gray-500' check:innerText='AVEC BILLETS' /&gt;" Guid="5ee8c797-7d75-436f-821a-0be8f762eb12" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="Radio button 'AVEC BILLETS'" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Target>
+                            <uix:TargetAnchorable BrowserURL="passetonbillet.fr/artists/dua-lipa" CVScreenId="aef2c460-2833-4896-bed9-bc2131a1e39d" ContentHash="KWI-VatSPEOuaeZVJ_idCA" DesignTimeRectangle="1566, 722, 16, 16" DesignTimeScaleFactor="1" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl id='popularity' tag='INPUT' type='radio' aaname='Avec billets' /&gt;" Guid="a7c00aad-5437-4f5a-88fd-6afd014122fc" ImageBase64="" InformativeScreenshot="4ef85f51d455626781528c01a87da706.png" Reference="Awkkx5PX5Uq3gimdujAmxA/zxBw6P7_tU-ywBvVFNe9Zw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Concert Dua Lipa 2025 ❘ Achat de places &amp;amp; Revente de billets - PasseTonBillet' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="aef2c460-2833-4896-bed9-bc2131a1e39d" CvElementArea="1548, 711, 123, 37" CvTextArea="1588, 724, 65, 10" CvTextArgument="AVEC BILLETS" CvType="Button" DesignTimeRectangle="1590, 722, 63, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Avec billets' tag='LABEL' type='' class='text-2xs hover:cursor-pointer uppercase text-gray-500' check:innerText='AVEC BILLETS' /&gt;" Guid="5ee8c797-7d75-436f-821a-0be8f762eb12" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:VerifyExecutionOptions.Target>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <ui:UiElementExists DisplayName="Element Exists 'SPAN'" Exists="[check_exists]" sap:VirtualizedContainerService.HintSize="506,139" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+                      <ui:UiElementExists.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9faa21e1-801f-4007-85c4-732a87c7a099" InformativeScreenshot="efad09ea8c920d14bd50ed9860e74d65" Selector="&lt;html app='chrome.exe' title='Concert*' /&gt;&lt;webctrl tag='SPAN' innertext='Nous n&amp;apos;avons trouvé aucun événement passé*' /&gt;" TimeoutMS="200">
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:UiElementExists.Target>
+                    </ui:UiElementExists>
+                    <ui:IfElseIfV2 Condition="[check_exists = False]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="506,2198" sap2010:WorkflowViewState.IdRef="IfElseIfV2_2">
+                      <ui:IfElseIfV2.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="504,240" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NGetText DisplayName="Get Text 'Nous n'avons trouvé auc…'" sap:VirtualizedContainerService.HintSize="470,180" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="81a083a4-26c5-486e-9189-53c92a381276" TextString="[str_message]" Version="V4">
+                            <uix:NGetText.Target>
+                              <uix:TargetAnchorable BrowserURL="passetonbillet.fr/artists/dua-lipa" CVScreenId="184de243-243e-431c-882d-1b6981380749" ContentHash="729wBHLhQk-Cn76vrkBHUw" CvElementArea="78, 570, 1764, 162" CvTextArea="675, 677, 567, 22" CvTextArgument="Nous n'avons trouvé aucun événement passé pour Dua Lipa" CvType="Button" DesignTimeRectangle="676, 673, 567, 28" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='text-xs md:text-[15px] font-semibold text-center' isleaf='1' tag='SPAN' /&gt;" Guid="df08d8f2-b37b-4ed0-87d9-7e2ea59a8a58" InformativeScreenshot="bdd330077fab68286b3c97325797edfd.png" Reference="Awkkx5PX5Uq3gimdujAmxA/Ht0UlOZ53Umcd70PDAuajA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Concerts Dua Lipa 2025 ❘ Achat de places &amp;amp; Revente de billets - PasseTonBillet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                            </uix:NGetText.Target>
+                          </uix:NGetText>
+                        </Sequence>
+                      </ui:IfElseIfV2.Else>
+                      <ui:IfElseIfV2.ElseIfs>
+                        <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True" />
+                      </ui:IfElseIfV2.ElseIfs>
+                      <ui:IfElseIfV2.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="504,1781" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                          <Sequence.Variables>
+                            <Variable x:TypeArguments="ui:UiElement" Name="element_lines" />
+                            <Variable x:TypeArguments="scg:IEnumerable(ui:UiElement)" Name="div_children" />
+                          </Sequence.Variables>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:UiElementExists DisplayName="Element Exists 'SPAN'" Exists="[check_plus]" sap:VirtualizedContainerService.HintSize="470,139" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
+                            <ui:UiElementExists.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9faa21e1-801f-4007-85c4-732a87c7a099" InformativeScreenshot="c2b3ee6645b593d65e1d7ef6c3e9cb5d" Selector="&lt;html app='chrome.exe' title='Concert*' /&gt;&lt;webctrl tag='SPAN' innertext='Plus d&amp;apos;évènements' /&gt;" TimeoutMS="200">
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:UiElementExists.Target>
+                          </ui:UiElementExists>
+                          <ui:IfElseIfV2 Condition="[check_plus = True]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="470,551" sap2010:WorkflowViewState.IdRef="IfElseIfV2_3">
+                            <ui:IfElseIfV2.Else>
+                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </Sequence>
+                            </ui:IfElseIfV2.Else>
+                            <ui:IfElseIfV2.ElseIfs>
+                              <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True" />
+                            </ui:IfElseIfV2.ElseIfs>
+                            <ui:IfElseIfV2.Then>
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,276" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Plus d'évènements'" sap:VirtualizedContainerService.HintSize="382,216" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="81a083a4-26c5-486e-9189-53c92a381276" Version="V4">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="passetonbillet.fr/artists/imagine-dragons" CVScreenId="252f2429-046c-4bef-8ba7-619ae64c8462" ContentHash="ceMrf9LFkEmHeyocOKSlyw" CvElementArea="1137, 751, 149, 40" CvTextArea="1151, 764, 121, 13" CvTextArgument="Plus d'évènements" CvType="Button" DesignTimeRectangle="1152, 762, 120, 19" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='' check:text='Plus d&amp;apos;évènements' /&gt;" Guid="54413a8f-c7e6-442d-95b1-1dc787c39029" ImageBase64="" InformativeScreenshot="b6ec2f5d21dedbf0b15c83727ca9f97c.png" Reference="Awkkx5PX5Uq3gimdujAmxA/ZKG1NBXQ60quq3R-Qt37IQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Concert Imagine Dragons 2025 ❘ Achat de places &amp;amp; Revente de billets - PasseTonBillet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                          <uix:Target CVScreenId="252f2429-046c-4bef-8ba7-619ae64c8462" DesignTimeRectangle="1139, 753, 146, 37" FuzzySelectorArgument="&lt;webctrl type='' parentid='__nuxt' tag='DIV' aaname='' check:innerText='Plus d&amp;apos;évènements' /&gt;" Guid="2f357533-c1cf-4af2-9176-18a62c4f36f4" ImageBase64="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" SearchSteps="FuzzySelector" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NClick.Target>
+                                  <uix:NClick.VerifyOptions>
+                                    <uix:VerifyExecutionOptions DisplayName="Label 'Plus d'évènements'" Mode="Appears">
+                                      <uix:VerifyExecutionOptions.Retry>
+                                        <InArgument x:TypeArguments="x:Boolean" />
+                                      </uix:VerifyExecutionOptions.Retry>
+                                      <uix:VerifyExecutionOptions.Target>
+                                        <uix:TargetAnchorable BrowserURL="passetonbillet.fr/artists/imagine-dragons" CVScreenId="252f2429-046c-4bef-8ba7-619ae64c8462" ContentHash="ceMrf9LFkEmHeyocOKSlyw" CvElementArea="1137, 751, 149, 40" CvTextArea="1151, 764, 121, 13" CvTextArgument="Plus d'évènements" CvType="Button" DesignTimeRectangle="1152, 762, 120, 19" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='' check:text='Plus d&amp;apos;évènements' /&gt;" Guid="54413a8f-c7e6-442d-95b1-1dc787c39029" ImageBase64="" InformativeScreenshot="b6ec2f5d21dedbf0b15c83727ca9f97c.png" Reference="Awkkx5PX5Uq3gimdujAmxA/ZKG1NBXQ60quq3R-Qt37IQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Concert Imagine Dragons 2025 ❘ Achat de places &amp;amp; Revente de billets - PasseTonBillet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CVScreenId="252f2429-046c-4bef-8ba7-619ae64c8462" DesignTimeRectangle="1139, 753, 146, 37" FuzzySelectorArgument="&lt;webctrl type='' parentid='__nuxt' tag='DIV' aaname='' check:innerText='Plus d&amp;apos;évènements' /&gt;" Guid="2f357533-c1cf-4af2-9176-18a62c4f36f4" ImageBase64="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" SearchSteps="FuzzySelector" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:VerifyExecutionOptions.Target>
+                                      <uix:VerifyExecutionOptions.Timeout>
+                                        <InArgument x:TypeArguments="x:Double" />
+                                      </uix:VerifyExecutionOptions.Timeout>
+                                    </uix:VerifyExecutionOptions>
+                                  </uix:NClick.VerifyOptions>
+                                </uix:NClick>
+                              </Sequence>
+                            </ui:IfElseIfV2.Then>
+                          </ui:IfElseIfV2>
+                          <ui:FindChildren Children="[div_children]" DisplayName="Find Children 'DIV'" Filter="&lt;webctrl tag='A' href='/events/*' /&gt;" sap:VirtualizedContainerService.HintSize="470,139" sap2010:WorkflowViewState.IdRef="FindChildren_1" Scope="FIND_DESCENDANTS">
+                            <ui:FindChildren.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="0c95ab71-b0b7-4cb9-9d07-029490b7aa31" InformativeScreenshot="e15a0b5e894e7ee96c3d8dcfff4ed8a7" Selector="&lt;html app='chrome.exe' title='Concert*' /&gt;&lt;webctrl tag='DIV' class='flex flex-col' /&gt;">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:FindChildren.Target>
+                          </ui:FindChildren>
+                          <Assign sap:VirtualizedContainerService.HintSize="470,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="scg:Dictionary(x:Int32, s:Tuple(x:String, x:String))">[list_values]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="scg:Dictionary(x:Int32, s:Tuple(x:String, x:String))">[New Dictionary(Of Integer, Tuple(Of String, String))]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <ui:ForEach x:TypeArguments="ui:UiElement" CurrentIndex="[index]" DisplayName="For Each currentUiElement" sap:VirtualizedContainerService.HintSize="470,510" sap2010:WorkflowViewState.IdRef="ForEach`1_4" Values="[div_children]">
+                            <ui:ForEach.Body>
+                              <ActivityAction x:TypeArguments="ui:UiElement">
+                                <ActivityAction.Argument>
+                                  <DelegateInArgument x:TypeArguments="ui:UiElement" Name="currentUiElement" />
+                                </ActivityAction.Argument>
+                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,380" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                  <Sequence.Variables>
+                                    <Variable x:TypeArguments="x:String" Name="text" />
+                                  </Sequence.Variables>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="text" DisplayName="Get Attribute" sap:VirtualizedContainerService.HintSize="434,215" sap2010:WorkflowViewState.IdRef="GetAttribute_3">
+                                    <ui:GetAttribute.Result>
+                                      <OutArgument x:TypeArguments="x:String">[text]</OutArgument>
+                                    </ui:GetAttribute.Result>
+                                    <ui:GetAttribute.Target>
+                                      <ui:Target ClippingRegion="{x:Null}" Selector="{x:Null}" Element="[currentUiElement]" Id="4c860ba1-f234-458a-bb71-549d20ce2562">
+                                        <ui:Target.TimeoutMS>
+                                          <InArgument x:TypeArguments="x:Int32" />
+                                        </ui:Target.TimeoutMS>
+                                        <ui:Target.WaitForReady>
+                                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                                        </ui:Target.WaitForReady>
+                                      </ui:Target>
+                                    </ui:GetAttribute.Target>
+                                  </ui:GetAttribute>
+                                  <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_3">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="s:Tuple(x:String, x:String)">[list_values(Index)]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="s:Tuple(x:String, x:String)">[Tuple.Create(currentUiElement.Get("href").ToString, currentUiElement.Get("innertext").ToString)]</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                </Sequence>
+                              </ActivityAction>
+                            </ui:ForEach.Body>
+                          </ui:ForEach>
+                          <ui:HttpClient ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" FileAttachments="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseAttachment="{x:Null}" ResponseHeaders="{x:Null}" Result="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" StatusCode="{x:Null}" Username="{x:Null}" AcceptFormat="JSON" AuthenticationType="None" Body="[&quot;{&quot;&quot;content&quot;&quot;: &quot;&quot;✅ UiPath job completed successfully! Tickets are available!  &quot;&quot;}&quot;]" BodyFormat="JSON" DisplayName="HTTP Request" EnableSSLVerification="False" EndPoint="[currentKeyValuePairOfTextAndText.Value]" sap:VirtualizedContainerService.HintSize="470,102" sap2010:WorkflowViewState.IdRef="HttpClient_2" Method="POST" TimeoutMS="6000">
+                            <ui:HttpClient.Attachments>
+                              <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                            </ui:HttpClient.Attachments>
+                            <ui:HttpClient.Cookies>
+                              <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                            </ui:HttpClient.Cookies>
+                            <ui:HttpClient.Headers>
+                              <InArgument x:TypeArguments="x:String" x:Key="Content-Type">application/json</InArgument>
+                            </ui:HttpClient.Headers>
+                            <ui:HttpClient.Parameters>
+                              <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                            </ui:HttpClient.Parameters>
+                            <ui:HttpClient.UrlSegments>
+                              <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+                            </ui:HttpClient.UrlSegments>
+                          </ui:HttpClient>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="470,166" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Des Billets sont disponibles&quot;]" />
+                        </Sequence>
+                      </ui:IfElseIfV2.Then>
+                    </ui:IfElseIfV2>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Chrome" ContentHash="mVJ4YUNi0USTqpOT0ItPqA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAD6SURBVDhPpZNNagJBEIVH4kEkwTskm7iRXEQvEHMNA9mooIQI6lIi5gBZqHuHkBl/cJtlyNJF8MsrG0EGNfTY8OD16+rXXd1VAfUgFEiJ0Aw2CREaF0J2by5u2n6Mw8YMEmIGJg8we4HuJXRyED87zdYS8YcN5h224zsWIsdN8zL4GsH0EVZ9+F37GnRhXIFhEd7uIGrBoufWEvEnDO7howafTWdmmpfBRJv6N8K1O937BmbwXhZKED6dkULchpG4dwqW9+stDAp6RNWB3w1231hN+40KtvGzFBaOexlsS1m59/Iq5yu9g8r6RCkfb6aauOGfZjqjnYPwD+1TziQeGwW9AAAAAElFTkSuQmCC" InformativeScreenshot="9f132482408f8157d85bae6488fc9b4f.jpg" Reference="Awkkx5PX5Uq3gimdujAmxA/AsZuEkfMmUa6bNhEv0Yuog" Selector="&lt;html app='chrome.exe' title='Concerts Imagine Dragons 2025 ❘ Achat de places &amp;amp; Revente de billets - PasseTonBillet' /&gt;" Title="Concerts Imagine Dragons 2025 ❘ Achat de places &amp; Revente de billets - PasseTonBillet" Url="https://www.passetonbillet.fr" Version="V1" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
           </Sequence>
         </ActivityAction>
-      </uix:NApplicationCard.Body>
-      <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Chrome" ContentHash="mVJ4YUNi0USTqpOT0ItPqA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAD6SURBVDhPpZNNagJBEIVH4kEkwTskm7iRXEQvEHMNA9mooIQI6lIi5gBZqHuHkBl/cJtlyNJF8MsrG0EGNfTY8OD16+rXXd1VAfUgFEiJ0Aw2CREaF0J2by5u2n6Mw8YMEmIGJg8we4HuJXRyED87zdYS8YcN5h224zsWIsdN8zL4GsH0EVZ9+F37GnRhXIFhEd7uIGrBoufWEvEnDO7howafTWdmmpfBRJv6N8K1O937BmbwXhZKED6dkULchpG4dwqW9+stDAp6RNWB3w1231hN+40KtvGzFBaOexlsS1m59/Iq5yu9g8r6RCkfb6aauOGfZjqjnYPwD+1TziQeGwW9AAAAAElFTkSuQmCC" InformativeScreenshot="9f132482408f8157d85bae6488fc9b4f.jpg" Reference="Awkkx5PX5Uq3gimdujAmxA/AsZuEkfMmUa6bNhEv0Yuog" Selector="&lt;html app='chrome.exe' title='Concerts Imagine Dragons 2025 ❘ Achat de places &amp;amp; Revente de billets - PasseTonBillet' /&gt;" Title="Concerts Imagine Dragons 2025 ❘ Achat de places &amp; Revente de billets - PasseTonBillet" Url="https://www.passetonbillet.fr" Version="V1" />
-      </uix:NApplicationCard.TargetApp>
-    </uix:NApplicationCard>
+      </ui:ForEach.Body>
+    </ui:ForEach>
   </Sequence>
 </Activity>

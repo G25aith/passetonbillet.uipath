@@ -4,8 +4,10 @@
   "description": "Automate de surveillance",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[25.2.1]",
-    "UiPath.UIAutomation.Activities": "24.10.8"
+    "UiPath.IntegrationService.Activities": "[1.14.0]",
+    "UiPath.System.Activities": "25.2.3",
+    "UiPath.UIAutomation.Activities": "24.10.8",
+    "UiPath.WebAPI.Activities": "[1.21.1]"
   },
   "webServices": [],
   "entitiesStores": [],

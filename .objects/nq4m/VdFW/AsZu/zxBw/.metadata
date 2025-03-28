@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Radio button 'AVEC BILLETS'",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "zxBw6P7_tU-ywBvVFNe9Zw",
+  "Reference": "Awkkx5PX5Uq3gimdujAmxA/zxBw6P7_tU-ywBvVFNe9Zw",
+  "ParentRef": "Awkkx5PX5Uq3gimdujAmxA/AsZuEkfMmUa6bNhEv0Yuog",
+  "Created": "2025-03-27T20:19:03.670877Z",
+  "Updated": "2025-03-27T20:19:03.670877Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

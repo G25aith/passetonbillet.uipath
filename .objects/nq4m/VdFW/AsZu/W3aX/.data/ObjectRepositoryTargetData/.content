@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="-1iLv-NasUq84eiRc82pSg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="LszPyEcHvEC5CLZc_9JGVg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="passetonbillet.fr/artists/imagine-dragons" DesignTimeRectangle="1716, 313, 20, 20" DesignTimeScaleFactor="1.25" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl id='popularity' tag='INPUT' type='radio' class='checked:appearance-none checked:rounded-full checked:bg-primary text-primary hover:cursor-pointer size-4' aaname='Avec billets' /&gt;" Guid="5fe894cd-4a45-4ede-ab63-f7054782de86" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Concerts Imagine Dragons 2025 ❘ Achat de places &amp;amp; Revente de billets - PasseTonBillet' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="passetonbillet.fr/artists/imagine-dragons" CVScreenId="1c3a066e-b887-466b-b481-593851aaafcf" DesignTimeRectangle="1152, 689, 120, 19" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='' check:text='Plus d&amp;apos;évènements' /&gt;" Guid="c641e30c-7a39-4f37-936d-1ab88dbce5bc" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Concert Imagine Dragons 2025 ❘ Achat de places &amp;amp; Revente de billets - PasseTonBillet' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target DesignTimeRectangle="1746, 314, 79, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Avec billets' tag='LABEL' type='' class='text-2xs hover:cursor-pointer uppercase text-gray-500' check:innerText='AVEC BILLETS' /&gt;" Guid="1c58a426-9364-4c28-b28b-73e6068ea513" SearchSteps="FuzzySelector" />
+          <Target CVScreenId="1c3a066e-b887-466b-b481-593851aaafcf" CvElementArea="1137, 678, 149, 41" CvTextArea="1151, 691, 121, 13" CvTextArgument="Plus d'évènements" CvType="Button" DesignTimeRectangle="1139, 680, 146, 37" FuzzySelectorArgument="&lt;webctrl type='' parentid='__nuxt' tag='DIV' aaname='' check:innerText='Plus d&amp;apos;évènements' /&gt;" Guid="bd7989d2-9c60-41c1-8d38-6bb608ebd6f5" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="ae1b4d55ac5c5c8ea9e4859fe9748862.png" xmlns="">0-Ls3dcWTck-RqFlXXvHl9g</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="571e0a8b98d9198ce91451f3d4f32b98.png" xmlns="">0UK3qPpqWoE-WhG-s3wARog</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>

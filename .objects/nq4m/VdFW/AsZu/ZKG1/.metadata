@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Plus d'évènements",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ZKG1NBXQ60quq3R-Qt37IQ",
+  "Reference": "Awkkx5PX5Uq3gimdujAmxA/ZKG1NBXQ60quq3R-Qt37IQ",
+  "ParentRef": "Awkkx5PX5Uq3gimdujAmxA/AsZuEkfMmUa6bNhEv0Yuog",
+  "Created": "2025-03-27T23:47:18.7176188Z",
+  "Updated": "2025-03-27T23:47:18.7176188Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
