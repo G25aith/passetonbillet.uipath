@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Chercher_les_concerts_du_l_artiste" this:Chercher_les_concerts_du_l_artiste.Artist="dua-lipa" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Chercher_les_concerts_du_l_artiste" this:Chercher_les_concerts_du_l_artiste.Artist="dua-lipa" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uasa="clr-namespace:UiPath.Activities.System.Arrays;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Artist" Type="InArgument(x:String)" />
   </x:Members>
@@ -132,6 +132,7 @@
       <x:String>UiPath.Web.Activities</x:String>
       <x:String>UiPath.UIAutomationNext</x:String>
       <x:String>Microsoft</x:String>
+      <x:String>UiPath.Activities.System.Arrays</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -257,10 +258,10 @@
       <AssemblyReference>Microsoft.CodeAnalysis.Features</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1047,3301" sap2010:WorkflowViewState.IdRef="Sequence_5">
+  <Sequence sap:VirtualizedContainerService.HintSize="1047,4734" sap2010:WorkflowViewState.IdRef="Sequence_5">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="output_element" />
-      <Variable x:TypeArguments="scg:Dictionary(x:Int32, s:Tuple(x:String, x:String))" Name="list_values" />
+      <Variable x:TypeArguments="scg:Dictionary(x:Int32, s:Tuple(x:String, x:String))" Name="dict_values" />
       <Variable x:TypeArguments="x:Int32" Name="index">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -269,20 +270,20 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </Variable>
-      <Variable x:TypeArguments="scg:Dictionary(x:Int32, s:Tuple(x:String, x:String))" Name="list_values_formatted" />
+      <Variable x:TypeArguments="scg:Dictionary(x:Int32, s:Tuple(x:String, scg:List(x:String)))" Name="dict_values_formatted" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ForEach x:TypeArguments="scg:KeyValuePair(x:String, x:String)" CurrentIndex="[index]" DisplayName="For Each currentKeyValuePairOfTextAndText" sap:VirtualizedContainerService.HintSize="610,3278" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[New Dictionary(Of String, String) From {&#xD;&#xA;    {&quot;dua-lipa&quot;, &quot;https://discord.com/api/webhooks/1354899541349892230/rGCqtrpLZZoHcYJ0UruKTUINVvs24F-AdbpFtevwGB1NDfOemC73gw-w6EJUQ3nlFFMH&quot;},&#xD;&#xA;    {&quot;imagine-dragons&quot;, &quot;https://discord.com/api/webhooks/1354946338638397510/Iv9uwFjJB7KqVjYvojRyHYeHziIZMsY684i3Fnb5Jn1cle2L2dN7WqQweX2gRR0ezTi9&quot;}&#xD;&#xA;}]">
+    <ui:ForEach x:TypeArguments="scg:KeyValuePair(x:String, x:String)" CurrentIndex="[index]" DisplayName="For Each currentKeyValuePairOfTextAndText" sap:VirtualizedContainerService.HintSize="610,4711" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[New Dictionary(Of String, String) From {&#xA;    {&quot;dua-lipa&quot;, &quot;https://discord.com/api/webhooks/1354899541349892230/rGCqtrpLZZoHcYJ0UruKTUINVvs24F-AdbpFtevwGB1NDfOemC73gw-w6EJUQ3nlFFMH&quot;},&#xA;    {&quot;imagine-dragons&quot;, &quot;https://discord.com/api/webhooks/1354946338638397510/Iv9uwFjJB7KqVjYvojRyHYeHziIZMsY684i3Fnb5Jn1cle2L2dN7WqQweX2gRR0ezTi9&quot;}&#xA;}]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="scg:KeyValuePair(x:String, x:String)">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="scg:KeyValuePair(x:String, x:String)" Name="currentKeyValuePairOfTextAndText" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="608,3157" sap2010:WorkflowViewState.IdRef="Sequence_11">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="608,4590" sap2010:WorkflowViewState.IdRef="Sequence_11">
             <Sequence.Variables>
               <Variable x:TypeArguments="ui:UiElement" Name="output" />
             </Sequence.Variables>
@@ -291,13 +292,13 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Chrome Concerts Imagine Dragons 2025 ❘ Achat" sap:VirtualizedContainerService.HintSize="574,3097" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="Always" OutUiElement="[output]" ScopeGuid="81a083a4-26c5-486e-9189-53c92a381276" Version="V2" WindowResize="Maximize">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Chrome Concerts Imagine Dragons 2025 ❘ Achat" sap:VirtualizedContainerService.HintSize="574,4530" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="Always" OutUiElement="[output]" ScopeGuid="81a083a4-26c5-486e-9189-53c92a381276" Version="V2" WindowResize="Maximize">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Faire" sap:VirtualizedContainerService.HintSize="540,2857" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <Sequence DisplayName="Faire" sap:VirtualizedContainerService.HintSize="540,4290" sap2010:WorkflowViewState.IdRef="Sequence_4">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="ui:UiElement" Name="b_aucunticket" />
                       <Variable x:TypeArguments="x:String" Name="str_message" />
@@ -350,7 +351,7 @@
                         </ui:Target>
                       </ui:UiElementExists.Target>
                     </ui:UiElementExists>
-                    <ui:IfElseIfV2 Condition="[check_exists = False]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="506,2198" sap2010:WorkflowViewState.IdRef="IfElseIfV2_2">
+                    <ui:IfElseIfV2 Condition="[check_exists = False]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="506,3631" sap2010:WorkflowViewState.IdRef="IfElseIfV2_2">
                       <ui:IfElseIfV2.Else>
                         <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="504,240" sap2010:WorkflowViewState.IdRef="Sequence_10">
                           <sap:WorkflowViewStateService.ViewState>
@@ -369,10 +370,16 @@
                         <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True" />
                       </ui:IfElseIfV2.ElseIfs>
                       <ui:IfElseIfV2.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="504,1781" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="504,3212" sap2010:WorkflowViewState.IdRef="Sequence_9">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="ui:UiElement" Name="element_lines" />
                             <Variable x:TypeArguments="scg:IEnumerable(ui:UiElement)" Name="div_children" />
+                            <Variable x:TypeArguments="x:String" Name="formatted_message" />
+                            <Variable x:TypeArguments="x:String" Name="content">
+                              <Variable.Default>
+                                <Literal x:TypeArguments="x:String" Value="" />
+                              </Variable.Default>
+                            </Variable>
                           </Sequence.Variables>
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -455,27 +462,89 @@
                           </ui:FindChildren>
                           <Assign sap:VirtualizedContainerService.HintSize="470,114" sap2010:WorkflowViewState.IdRef="Assign_2">
                             <Assign.To>
-                              <OutArgument x:TypeArguments="scg:Dictionary(x:Int32, s:Tuple(x:String, x:String))">[list_values]</OutArgument>
+                              <OutArgument x:TypeArguments="scg:Dictionary(x:Int32, s:Tuple(x:String, x:String))">[dict_values]</OutArgument>
                             </Assign.To>
                             <Assign.Value>
                               <InArgument x:TypeArguments="scg:Dictionary(x:Int32, s:Tuple(x:String, x:String))">[New Dictionary(Of Integer, Tuple(Of String, String))]</InArgument>
                             </Assign.Value>
                           </Assign>
-                          <ui:ForEach x:TypeArguments="ui:UiElement" CurrentIndex="[index]" DisplayName="For Each currentUiElement" sap:VirtualizedContainerService.HintSize="470,510" sap2010:WorkflowViewState.IdRef="ForEach`1_4" Values="[div_children]">
+                          <Assign sap:VirtualizedContainerService.HintSize="470,114" sap2010:WorkflowViewState.IdRef="Assign_8">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="scg:Dictionary(x:Int32, s:Tuple(x:String, scg:List(x:String)))">[dict_values_formatted]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="scg:Dictionary(x:Int32, s:Tuple(x:String, scg:List(x:String)))">[New Dictionary(Of Integer, Tuple(Of String, List(Of String)))]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <ui:ForEach x:TypeArguments="ui:UiElement" CurrentIndex="[index]" DisplayName="For Each currentUiElement" sap:VirtualizedContainerService.HintSize="470,1418" sap2010:WorkflowViewState.IdRef="ForEach`1_4" Values="[div_children]">
                             <ui:ForEach.Body>
                               <ActivityAction x:TypeArguments="ui:UiElement">
                                 <ActivityAction.Argument>
                                   <DelegateInArgument x:TypeArguments="ui:UiElement" Name="currentUiElement" />
                                 </ActivityAction.Argument>
-                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,380" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,1288" sap2010:WorkflowViewState.IdRef="Sequence_19">
                                   <Sequence.Variables>
                                     <Variable x:TypeArguments="x:String" Name="text" />
+                                    <Variable x:TypeArguments="scg:IEnumerable(ui:UiElement)" Name="span_children" />
+                                    <Variable x:TypeArguments="scg:List(x:String)" Name="list_span" />
                                   </Sequence.Variables>
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
+                                  <ui:FindChildren Children="[span_children]" DisplayName="Find Children" Filter="&lt;webctrl tag='SPAN' class='text-*' /&gt;" sap:VirtualizedContainerService.HintSize="434,119" sap2010:WorkflowViewState.IdRef="FindChildren_2" Scope="FIND_DESCENDANTS">
+                                    <ui:FindChildren.Target>
+                                      <ui:Target ClippingRegion="{x:Null}" Selector="{x:Null}" Element="[currentUiElement]" Id="90c7ac0f-51eb-463c-bcb1-58e4ce99e7ed">
+                                        <ui:Target.TimeoutMS>
+                                          <InArgument x:TypeArguments="x:Int32" />
+                                        </ui:Target.TimeoutMS>
+                                        <ui:Target.WaitForReady>
+                                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                                        </ui:Target.WaitForReady>
+                                      </ui:Target>
+                                    </ui:FindChildren.Target>
+                                  </ui:FindChildren>
+                                  <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_4">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="scg:List(x:String)">[list_span]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="scg:List(x:String)">[New List(Of String)]</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                  <ui:ForEach x:TypeArguments="ui:UiElement" CurrentIndex="{x:Null}" DisplayName="For Each currentUiElement" sap:VirtualizedContainerService.HintSize="434,561" sap2010:WorkflowViewState.IdRef="ForEach`1_5" Values="[span_children]">
+                                    <ui:ForEach.Body>
+                                      <ActivityAction x:TypeArguments="ui:UiElement">
+                                        <ActivityAction.Argument>
+                                          <DelegateInArgument x:TypeArguments="ui:UiElement" Name="currentUiElement" />
+                                        </ActivityAction.Argument>
+                                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,431" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="innertext" DisplayName="Get Attribute" sap:VirtualizedContainerService.HintSize="382,215" sap2010:WorkflowViewState.IdRef="GetAttribute_4">
+                                            <ui:GetAttribute.Result>
+                                              <OutArgument x:TypeArguments="x:String">[text]</OutArgument>
+                                            </ui:GetAttribute.Result>
+                                            <ui:GetAttribute.Target>
+                                              <ui:Target ClippingRegion="{x:Null}" Selector="{x:Null}" Element="[currentUiElement]" Id="409af152-a83a-4f6e-95b7-d1f77b2027f6">
+                                                <ui:Target.TimeoutMS>
+                                                  <InArgument x:TypeArguments="x:Int32" />
+                                                </ui:Target.TimeoutMS>
+                                                <ui:Target.WaitForReady>
+                                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                </ui:Target.WaitForReady>
+                                              </ui:Target>
+                                            </ui:GetAttribute.Target>
+                                          </ui:GetAttribute>
+                                          <uasa:AppendItemToList x:TypeArguments="x:String" ItemIndex="{x:Null}" DisplayName="Append Item to List" sap:VirtualizedContainerService.HintSize="382,156" sap2010:WorkflowViewState.IdRef="AppendItemToList`1_1" ItemToAppend="[text]" List="[list_span]" />
+                                        </Sequence>
+                                      </ActivityAction>
+                                    </ui:ForEach.Body>
+                                  </ui:ForEach>
                                   <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="text" DisplayName="Get Attribute" sap:VirtualizedContainerService.HintSize="434,215" sap2010:WorkflowViewState.IdRef="GetAttribute_3">
                                     <ui:GetAttribute.Result>
                                       <OutArgument x:TypeArguments="x:String">[text]</OutArgument>
@@ -491,19 +560,61 @@
                                       </ui:Target>
                                     </ui:GetAttribute.Target>
                                   </ui:GetAttribute>
-                                  <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_3">
+                                  <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_3">
                                     <Assign.To>
-                                      <OutArgument x:TypeArguments="s:Tuple(x:String, x:String)">[list_values(Index)]</OutArgument>
+                                      <OutArgument x:TypeArguments="s:Tuple(x:String, x:String)">[dict_values(Index)]</OutArgument>
                                     </Assign.To>
                                     <Assign.Value>
                                       <InArgument x:TypeArguments="s:Tuple(x:String, x:String)">[Tuple.Create(currentUiElement.Get("href").ToString, currentUiElement.Get("innertext").ToString)]</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                  <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_7">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="s:Tuple(x:String, scg:List(x:String))">[dict_values_formatted(Index)]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="s:Tuple(x:String, scg:List(x:String))">[Tuple.Create(currentUiElement.Get("href").ToString, list_span)]</InArgument>
                                     </Assign.Value>
                                   </Assign>
                                 </Sequence>
                               </ActivityAction>
                             </ui:ForEach.Body>
                           </ui:ForEach>
-                          <ui:HttpClient ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" FileAttachments="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseAttachment="{x:Null}" ResponseHeaders="{x:Null}" Result="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" StatusCode="{x:Null}" Username="{x:Null}" AcceptFormat="JSON" AuthenticationType="None" Body="[&quot;{&quot;&quot;content&quot;&quot;: &quot;&quot;✅ UiPath job completed successfully! Tickets are available!  &quot;&quot;}&quot;]" BodyFormat="JSON" DisplayName="HTTP Request" EnableSSLVerification="False" EndPoint="[currentKeyValuePairOfTextAndText.Value]" sap:VirtualizedContainerService.HintSize="470,102" sap2010:WorkflowViewState.IdRef="HttpClient_2" Method="POST" TimeoutMS="6000">
+                          <Assign sap:VirtualizedContainerService.HintSize="470,114" sap2010:WorkflowViewState.IdRef="Assign_10">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[formatted_message]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">
+                                <Literal x:TypeArguments="x:String" Value="" />
+                              </InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <ui:ForEach x:TypeArguments="scg:KeyValuePair(x:Int32, s:Tuple(x:String, scg:List(x:String)))" CurrentIndex="{x:Null}" DisplayName="For Each item" sap:VirtualizedContainerService.HintSize="470,295" sap2010:WorkflowViewState.IdRef="ForEach`1_6" Values="[dict_values_formatted]">
+                            <ui:ForEach.Body>
+                              <ActivityAction x:TypeArguments="scg:KeyValuePair(x:Int32, s:Tuple(x:String, scg:List(x:String)))">
+                                <ActivityAction.Argument>
+                                  <DelegateInArgument x:TypeArguments="scg:KeyValuePair(x:Int32, s:Tuple(x:String, scg:List(x:String)))" Name="item" />
+                                </ActivityAction.Argument>
+                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,165" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_9">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:String">[formatted_message]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:String">[formatted_message &amp; "\n**Event:** " &amp; String.Join(" ", item.Value.Item2.Take(3)) &amp; ", " &amp; String.Join(", ", item.Value.Item2.Skip(3)) &amp; "\n**URL:** " &amp; "https://www.passetonbillet.fr" &amp; item.Value.Item1 &amp; "\n------------------\n"]</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                </Sequence>
+                              </ActivityAction>
+                            </ui:ForEach.Body>
+                          </ui:ForEach>
+                          <ui:HttpClient ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" FileAttachments="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseAttachment="{x:Null}" ResponseHeaders="{x:Null}" Result="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" StatusCode="{x:Null}" Username="{x:Null}" AcceptFormat="JSON" AuthenticationType="None" Body="[&quot;{&quot;&quot;content&quot;&quot;: &quot;&quot;✅ UiPath job completed successfully! Tickets are available!&quot; &amp; formatted_message &amp; &quot;&quot;&quot;}&quot;]" BodyFormat="JSON" DisplayName="HTTP Request" EnableSSLVerification="False" EndPoint="[currentKeyValuePairOfTextAndText.Value]" sap:VirtualizedContainerService.HintSize="470,102" sap2010:WorkflowViewState.IdRef="HttpClient_2" Method="POST" TimeoutMS="6000">
                             <ui:HttpClient.Attachments>
                               <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
                             </ui:HttpClient.Attachments>
